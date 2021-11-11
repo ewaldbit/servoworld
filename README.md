@@ -5,7 +5,7 @@
 ## About the project/Sobre o Projeto
 Projeto requerido no pela **Digital Innovatio One** BootCamp **Capgemini Fullstack Java and Angular** como parte de desafio e aprendizado.
 
-Esse projeto foi concebido no intuito de organizar e ampliar e disponibilizer a vizualização do mundo videográfico do *Ministério Servo da Orelha Furada* ao longo de 20 anos. 
+Esse projeto foi concebido no intuito de organizar e ampliar e disponibilizer a vizualização do mundo videográfico do ***Ministério Servo da Orelha Furada*** ao longo de 20 anos. 
 
 Está disponibilizado o **protótipo HTML** para futuramente ser estruturado um sistema backend e aplicativo para produção.
 
@@ -20,5 +20,5 @@ Esse projeto não possui um sistema de versionamento.
 ## History/Histórico
 Da uma olhada na aba [Releases](https://github.com/omariosouto/pokedex/releases) pra acompanhar as alterações feitas no projeto.
 
-## License/Licença do Projeto
-© 2021 [Ewald Bitencourt](https://www.linkedin.com/in/ewaldbit/)
+## Licenca/Developer
+[MIT License](servoworld/LICENSE) © 2021 [Ewald Bitencourt](https://www.linkedin.com/in/ewaldbit/)
