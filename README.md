@@ -17,8 +17,5 @@ A partir de uma ministração em Deuteronômio 15:12-17 sobre o servo da orelha 
 
 Esse projeto não possui um sistema de versionamento.
 
-## History/Histórico
-Da uma olhada na aba [Releases](https://github.com/omariosouto/pokedex/releases) pra acompanhar as alterações feitas no projeto.
-
 ## Licenca/Developer
 [MIT License](servoworld/LICENSE) © 2021 [Ewald Bitencourt](https://www.linkedin.com/in/ewaldbit/)
