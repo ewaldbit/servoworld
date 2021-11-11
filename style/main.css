@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: Netflix;
-    src: url(font/NetflixSans-Regular.ttf);
+    src: url("../font/NetflixSans-Regular.ttf");
 }
 
 @font-face {
     font-family: NetFlixLogo;
-    src: url(font/BebasNeue.otf);
+    src: url("../font/BebasNeue.otf");
 }
 
 *{
@@ -63,7 +63,7 @@ header nav a:hover{
 /*filmes principal*/
 .filme-principal{
     font-size: 15px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/bannerservo.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/bannerservo.jpg");
     height: 480px;
     background-size:cover;
     display: flex;
