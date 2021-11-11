@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: Netflix;
-    src: url(/font/NetflixSans-Regular.ttf);
+    src: url(font/NetflixSans-Regular.ttf);
 }
 
 @font-face {
     font-family: NetFlixLogo;
-    src: url(/font/BebasNeue.otf);
+    src: url(font/BebasNeue.otf);
 }
 
 *{
