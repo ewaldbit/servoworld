@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <!--rensponsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+  <!--  <script src="js/video.js"></script>-->
+    <title>ServoWorld</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2><a href="index.html" class="logo">ServoWorld</a></h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#">Lives</a>
+                <a href="#">Seminários</a>
+                <a href="#">Vôo das Águias</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/jquery.fitvids.js"></script>
+        <script>
+            $(document).ready(function(){
+              // Target your .container, .wrapper, .post, etc.
+              $(".filme1").fitVids();
+            });
+          </script>
+        <div class="filme1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/I7-lumQfluM" frameborder="0" allowfullscreen></iframe>
+        </div>    
+    </main>
+    
+</body>
+</html>
