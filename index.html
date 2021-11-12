@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style/main.css">
     <!--rensponsividade -->
     <link rel="stylesheet" href="style/responsive.css">
     <!--owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    
+    
     <title>ServoWorld</title>
 </head>
 <body>
@@ -34,7 +38,7 @@
                         <i class="far fa-play-circle"></i>
                         ASSISTIR AGORA
                     </button>
-                    <button role="button " class="botao">
+                    <button class="botao" type="button" role="button" data-toggle="modal" data-target="#information"">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
@@ -82,8 +86,70 @@
         </div>
     </div>
     <script src="https://kit.fontawesome.com/a9aa69efbf.js" crossorigin="anonymous"></script>
-    <script src="js/owl/jquery.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <script
+        src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous">
+    </script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function(){
+            // Target your .container, .wrapper, .post, etc.
+            $(".filme1").fitVids();
+        });
+    </script>
+
+    <!--<script src="js/video.js"></script>-->
+
+<!-- ***************************************************************** -->
+    <!--Modal Informações -->
+    <div id="information" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Conteúdo do modal -->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button role="button" class="close" data-dismiss="modal">
+                        <i class="fas fa-times-circle"></i>
+                    </button>
+                    <div class="play">
+                        <div class="tituloModal">
+                            <h2>Servo da Orelha Furada - Pacto</h2>
+                            <h4>Apóstolo Glaucio Coraiola</h4>
+                            <p>2014 
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </p>
+                            <p class="descricao">A partir de uma ministração em Deuteronômio 15:12-17 sobre o servo da orelha furada, teve início o ministério, e nosso chamado tem sido a de levar uma mensagem de entrega sem limites e compromisso profundo com Deus.</p>
+                        </div>
+                        
+                        <button role="button" class="botao" onclick="window.location.href='filme1.html' ">
+                            <i class="far fa-play-circle"></i>
+                                ASSISTIR AGORA
+                        </button>
+                        <button class="botao">
+                            <i class="far fa-thumbs-up"></i>
+                        </button>
+                        <button class="botao">
+                            <i class="far fa-thumbs-down"></i>
+                        </button>
+                    </div>    
+                </div><!--modal-body -->
+            </div><!--modal-content -->
+        </div><!-- modal-dialog -->
+    </div><!-- modal1 -->
 </body>
 </html>
