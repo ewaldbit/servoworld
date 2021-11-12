@@ -136,7 +136,7 @@ iframe[src*="youtube"] {
     height: 500px;
 	font-size: 0.8em;
 	font-weight: bold;
-	background: url("/img/bannerservo.jpg") no-repeat, linear-gradient(to top,#181818,transparent 50%);
+	background: url("../img/bannerservo.jpg") no-repeat, linear-gradient(to top,#181818,transparent 60%);
     background-size: cover;
 }
 
