@@ -1,3 +1,13 @@
+@media  screen and (max-width:1000px) {
+    .play .botoes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .play .botao{
+        margin-top: 5px;
+    }
+}
 @media screen and (max-width:768px) {
     
     header .container{
@@ -14,10 +24,36 @@
     .botao{
         margin-top: 5px;
         width: 300px;
-        margin-left: 8%;
+        margin-left: 2%;
     }
 
-    
+    .modal-dialog{
+        width: 96%;
+    }
+
+    .modal-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .play .botoes{
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .play .botao{
+        width: 250px;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .close{
+        top: -1px;
+        left: 94%;
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width:1000px){
